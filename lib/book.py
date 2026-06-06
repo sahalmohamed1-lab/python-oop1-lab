@@ -17,7 +17,7 @@ class Book:
             print("Page_count must be an integer")
     
     def turn_page(self):
-        print("Flipping the page...wow, you read fast")
+        print("Flipping the page...wow, you read fast!")
 
 title = input("Enter book title: ")
 page_count = input("Enter page count: ")
