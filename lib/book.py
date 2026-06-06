@@ -14,22 +14,10 @@ class Book:
         if isinstance(value, int):
             self._page_count = value
         else:
-            print("Page_count must be an integer")
+            print("page_count must be an integer")
     
     def turn_page(self):
         print("Flipping the page...wow, you read fast!")
 
-title = input("Enter book title: ")
-page_count = input("Enter page count: ")
-
-try:
-    page_count = int(page_count)
-except ValueError:
-    page_count = page_count
-
-book = Book(title, page_count)
-
-print(book.title)
-book.turn_page()
 
         
