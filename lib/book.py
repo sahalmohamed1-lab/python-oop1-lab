@@ -19,17 +19,5 @@ class Book:
     def turn_page(self):
         print("Flipping the page...wow, you read fast")
 
-title = input("Enter book title: ")
-page_count = input("Enter page count: ")
-
-try:
-    page_count = int(page_count)
-except ValueError:
-    page_count = page_count
-
-book = Book(title, page_count)
-
-print(book.title)
-book.turn_page()
 
         
